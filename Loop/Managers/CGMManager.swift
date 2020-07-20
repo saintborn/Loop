@@ -8,14 +8,16 @@
 import LoopKit
 import CGMBLEKit
 import G4ShareSpy
-import ShareClient
+import MiaoMiaoClient
 import MockKit
 
 
+
 let allCGMManagers: [CGMManager.Type] = [
-    G6CGMManager.self,
-    G5CGMManager.self,
-    G4CGMManager.self,
+    // G6CGMManager.self,
+    // G5CGMManager.self,
+    // G4CGMManager.self,
+    MiaoMiaoClient.self,
     ShareClientManager.self,
     MockCGMManager.self,
 ]
